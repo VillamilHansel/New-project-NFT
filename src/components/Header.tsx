@@ -23,6 +23,7 @@ const Header: React.FC = () => {
           <button onClick={() => scrollToSection('nft-economy')} className="text-crypto-muted hover:text-crypto-neon transition-colors">
             NFT Economy
           </button>
+          <button onClick={() => scrollToSection('distribution')} className="text-crypto-muted hover:text-crypto-neon transition-colors">Distribution</button>
           <button onClick={() => scrollToSection('roadmap')} className="text-crypto-muted hover:text-crypto-neon transition-colors">
             Roadmap
           </button>
@@ -32,6 +33,7 @@ const Header: React.FC = () => {
           <button onClick={() => scrollToSection('community')} className="text-crypto-muted hover:text-crypto-neon transition-colors">
             Community
           </button>
+          <button onClick={() => scrollToSection('comments')} className="text-crypto-muted hover:text-crypto-neon transition-colors">Comments</button>
         </nav>
 
         <Button className="bg-crypto-neon/10 text-crypto-neon border border-crypto-neon hover:bg-crypto-neon hover:text-crypto-bg rounded-2xl transition-all duration-300 hover:shadow-[0_0_20px_rgba(34,247,174,0.3)]">
