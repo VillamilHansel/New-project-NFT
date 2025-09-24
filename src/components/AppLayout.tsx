@@ -5,7 +5,9 @@ import WhyCryptoRush from './WhyCryptoRush';
 import HowItWorks from './HowItWorks';
 import NFTEconomy from './NFTEconomy';
 import Roadmap from './Roadmap';
+import DistributionSection from './DistributionSection';
 import Community from './Community';
+import CommentsSection from './CommentsSection';
 import FAQ from './FAQ';
 import Footer from './Footer';
 
@@ -17,8 +19,10 @@ const AppLayout: React.FC = () => {
       <WhyCryptoRush />
       <HowItWorks />
       <NFTEconomy />
+      <DistributionSection />
       <Roadmap />
       <Community />
+      <CommentsSection />
       <FAQ />
       <Footer />
     </div>
