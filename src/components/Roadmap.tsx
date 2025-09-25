@@ -11,7 +11,7 @@ const Roadmap: React.FC = () => {
     },
     {
       quarter: 'Q1 2026',
-      title: 'Collection Launch & Holders Panel',
+      title: 'User & Holders Panel',
       description: 'Official NFT launch with basic dashboard',
       status: 'upcoming'
     },

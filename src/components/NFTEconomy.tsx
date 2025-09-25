@@ -11,7 +11,7 @@ const NFTEconomy: React.FC = () => {
 
   const allocation = [
     { label: 'Operations & liquidity', percentage: 77, color: 'crypto-neon' },
-    { label: 'For marketing development', percentage: 13, color: 'crypto-cyan' },
+    { label: 'For marketing & development', percentage: 13, color: 'crypto-cyan' },
     // { label: 'Marketing & community', percentage: 20, color: 'crypto-warning' },
     // { label: 'Team (vesting)', percentage: 15, color: 'crypto-muted' }
   ];
